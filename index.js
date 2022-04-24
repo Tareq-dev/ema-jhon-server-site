@@ -38,7 +38,6 @@ async function run() {
       } else {
         products = await cursor.toArray();
       }
-
       res.send(products);
     });
 
